@@ -525,3 +525,13 @@ body {
     transform: scale(1.1);
 }
 
+.Contact_Me {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+}
