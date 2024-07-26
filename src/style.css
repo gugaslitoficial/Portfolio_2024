@@ -532,6 +532,128 @@ body {
     background-color: black;
     background-size: cover;
     background-position: center;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
+
+.Container_Contact, .Information {
+    width: 50%;
+    height: 100%;
+}
+
+.Container_Contact {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.Title_Contact {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    width: 50%;
+    bottom: 15vh;
+}
+
+.Circle_Contact {
+    position: relative;
+    width: 4vw;
+    height: auto;
+    z-index: 1;
+    left: 19%;
+}
+
+.Title2_Contact {
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 3.2vw;
+    color: white;
+    z-index: 1;
+    right: 20%;
+}
+
+.Formulary_Contact_Me {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    box-sizing: border-box;
+    position: relative;
+    left: 15%;
+  }
+  
+  .Form_Flex_Contact {
+    display: flex;
+    justify-content: space-between;
+    width: 130%;
+  }
+  
+  .Form_Group_Contact {
+    margin-bottom: 2.5vh;
+    display: flex;
+    justify-content: space-between;
+    width: 130%;
+  }
+  
+  .Form_Group_Contact input,
+  .Form_Group_Contact textarea {
+    width: 100%;
+    border: 0.3vh solid rgb(33, 189, 33);
+    border-radius: 3vh;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0);
+    font-family: 'Poppins', sans-serif;
+    color: white;
+  }
+
+  .Form_Group_Contact input {
+    padding: 1.5vh;
+    height: 7vh;
+  }
+
+  .Form_Group_Contact textarea {
+    padding: 1.5vh;
+    height: 18vh;
+  }
+  
+  .Form_Flex_Contact .Form_Group_Contact {
+    flex: 1;
+    margin-right: 5vh;
+  }
+  
+  .Form_Flex_Contact .Form_Group_Contact:last-child {
+    margin-right: 0;
+  }
+
+  input::placeholder, textarea::placeholder {
+    color: #888;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .submit-button {
+    margin-top: 1vh;
+    padding: 1vh 2vh;
+    background-color: rgb(33, 189, 33);
+    color: white;
+    border: none;
+    border-radius: 3vh;
+    font-size: 1vw;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 20%;
+    position: relative;
+    left: 8%;
+  }
+  
+  .submit-button:hover {
+    background-color: rgb(23, 145, 23);
+  }
+  
+

@@ -84,22 +84,32 @@
         <section class="Contact_Me" id="Contact_Me">
             <div class="Container_Contact">
                 <div class="Title_Contact">
-                    <img class="Circle_Contact">
+                    <img class="Circle_Contact" src="./Images/Ellipse 7.svg">
                     <h1 class="Title2_Contact">Contact</h1>
                 </div>
                 <div class="Formulary_Contact_Me">
-                    <form>
-                        <div class="Form_Flex_Contact">
-                            <div class="Form_Group_Contact"></div>
-                            <div class="Form_Group_Contact"></div>
+                    <form id="contactForm">
+                      <div class="Form_Flex_Contact">
+                        <div class="Form_Group_Contact">
+                          <input type="text" id="firstName" name="firstName" placeholder="First Name">>
                         </div>
-                        <div class="Form_Group_Contact"></div>
-                        <div class="Form_Group_Contact"></div>
-                        <div class="Form_Group_Contact"></div>
+                        <div class="Form_Group_Contact">
+                            <input type="text" id="lastName" name="lastName" placeholder="Last Name">
+                        </div>
+                      </div>
+                      <div class="Form_Group_Contact">
+                        <input type="email" id="email" name="email" placeholder="Email">
+                      </div>
+                      <div class="Form_Group_Contact">
+                        <textarea id="message" name="message" placeholder="Message"></textarea>
+                      </div>
                     </form>
-                </div>
+                    <button class="submit-button" id="submitButton">Submit</button>
+                  </div>                  
             </div>
-            <div class="Information_Contact"></div>
+            <div class="Information">
+                <div class="Information_Contact"></div>
+            </div>    
         </section>
     </body>
 </html>
