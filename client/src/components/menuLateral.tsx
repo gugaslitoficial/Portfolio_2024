@@ -13,10 +13,10 @@ import {
 export default function Menu() {
   const [isActive, setIsActive] = useState<boolean>(false)
   const items = [
-    { icon: <House size={15} />, label: 'Inicial' },
-    { icon: <Search size={15} />, label: 'Sobre' },
-    { icon: <BriefcaseBusiness size={15} />, label: 'Serviços' },
-    { icon: <Github size={15} />, label: 'Porfólio' },
+    { icon: <House size={15} />, label: 'Home' },
+    { icon: <Search size={15} />, label: 'About' },
+    { icon: <BriefcaseBusiness size={15} />, label: 'Service' },
+    { icon: <Github size={15} />, label: 'GitHub' },
     { icon: <CircleUserRound size={15} />, label: 'Contato' },
   ]
 
