@@ -14,7 +14,7 @@ export default function About() {
             <div className="h-full w-full flex">
                 <div className="h-full w-5/12 flex flex-col justify-start items-center gap-10">
                     <p className="text-white text-2xl pt-20 font-bold ">
-                        Hello, I'm Gustavo and I'm a Full Stack Developer with a degree in Systems Analysis and Development and a postgraduate degree in Software Engineering, Network Security and Data Engineering.</p>
+                        Hello, I&apos;m Gustavo and I&apos;m a Full Stack Developer with a degree in Systems Analysis and Development and a postgraduate degree in Software Engineering, Network Security and Data Engineering.</p>
                     <p className="text-white text-2xl font-bold ">
                         I really like this big world of programming. Since I was 12 years old, I have been playing with different languages ​​and tools in the field. And as always, creativity is at my side, creating new doors of knowledge and fun.</p>
                 </div>

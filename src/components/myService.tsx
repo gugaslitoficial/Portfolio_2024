@@ -16,7 +16,7 @@ export default function Service() {
                         WEB DEVELOPMENT</h1>
                         <p 
                         className="text-white text-2xl font-semibold ">
-                            I offer specialized web development services to transform your ideas into exceptional digital experiences. With expertise in HTML, CSS, JavaScript and modern frameworks, such as React and Vue.js, I am prepared to create websites and web applications that captivate and engage your target audience. From responsive design to performance optimization, I'm committed to delivering high-quality projects that drive your online success. Let's collaborate to make your web presence truly memorable.</p>
+                            I offer specialized web development services to transform your ideas into exceptional digital experiences. With expertise in HTML, CSS, JavaScript and modern frameworks, such as React and Vue.js, I am prepared to create websites and web applications that captivate and engage your target audience. From responsive design to performance optimization, I&apos;m committed to delivering high-quality projects that drive your online success. Let&apos;s collaborate to make your web presence truly memorable.</p>
                     <h1 
                     className="text-slate-950 text-4xl py-5 font-bold ">
                         PROFESSIONAL QUALIFICATION</h1>

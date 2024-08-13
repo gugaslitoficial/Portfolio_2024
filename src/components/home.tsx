@@ -16,7 +16,7 @@ export default function Home() {
             style={{ backgroundImage: "url('..//bg-1.jpg')" }}>
 
             <div className="h-full w-1/2 flex flex-col justify-center gap-6">
-                <p className="text-white text-3xl font-bold">Hello, I'm</p>
+                <p className="text-white text-3xl font-bold">Hello, I&apos;m</p>
                 <h1 className="text-white text-7xl font-bold">Gustavo Romão</h1>
                 <p className="text-white text-3xl font-semibold">FULL-STACK DEVELOPER | FREELANCER</p>
                 <div className="flex items-center gap-3 my-10">
