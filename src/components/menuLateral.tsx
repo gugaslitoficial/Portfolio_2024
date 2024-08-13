@@ -9,16 +9,15 @@ import {
   House,
   Search
 } from "lucide-react"
-import { Link } from 'react-router-dom';
 
 export default function Menu() {
   const [isActive, setIsActive] = useState<boolean>(false)
   const items = [
-    { icon: <House size={15} />, label: 'Home', path: '/home' },
-    { icon: <Search size={15} />, label: 'About', path: '/aboutMe' },
-    { icon: <BriefcaseBusiness size={15} />, label: 'Services', path: '/myService' },
-    { icon: <Github size={15} />, label: 'Portfolio', path: '/portfolio' },
-    { icon: <CircleUserRound size={15} />, label: 'Contact', path: '/contactMe' },
+    { icon: <House size={15} />, label: 'Home' },
+    { icon: <Search size={15} />, label: 'About' },
+    { icon: <BriefcaseBusiness size={15} />, label: 'Services' },
+    { icon: <Github size={15} />, label: 'Portfolio' },
+    { icon: <CircleUserRound size={15} />, label: 'Contact' },
   ]
 
   return (
@@ -28,8 +27,8 @@ export default function Menu() {
       </div>
       {isActive &&
         <div className="h-auto w-[200px] flex flex-col gap-2 absolute right-24 top-14 p-2 bg-neutral-950 text-white rounded-xl shadow-md shadow-neutral-900">
-          {items.map((item, index) => (
-            <MenuLink key={index} icon={item.icon} label={item.label} path={item.path} />
+          {items.map((item: { icon: ReactNode, label: string, }, index: number) => (
+            <MenuLink key={index} icon={item.icon} label={item.label} />
           ))}
         </div>
       }
@@ -37,10 +36,10 @@ export default function Menu() {
   )
 }
 
-function MenuLink({ icon, label, path }: { icon: ReactNode, label: string, path: string }) {
+function MenuLink({ icon, label }: { icon: ReactNode, label: string }) {
   return (
-    <Link to={path} className="w-full h-auto flex items-center gap-2 cursor-pointer p-2 rounded-md hover:bg-neutral-900 hover:duration-200">
+    <div className="w-full h-auto flex items-center gap-2 cursor-pointer p-2 rounded-md hover:bg-neutral-900 hover:duration-200">
       {icon}{label}
-    </Link>
+    </div>
   )
 }
