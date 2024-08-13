@@ -59,7 +59,7 @@ export default function Contact() {
                                 name="message"
                                 placeholder="Message..."
                                 className="w-full border-2 border-green-500 rounded-lg p-2 bg-transparent text-white"
-                                rows="4"
+                                rows={4}
                                 required
                             />
                         </div>
