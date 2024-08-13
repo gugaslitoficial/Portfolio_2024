@@ -2,6 +2,7 @@
 
 import React, { ReactNode } from "react"
 import { CircleUserRound } from "lucide-react"
+import Image from 'next/image'
 
 export default function About() {
     return (
@@ -18,7 +19,11 @@ export default function About() {
                         I really like this big world of programming. Since I was 12 years old, I have been playing with different languages ​​and tools in the field. And as always, creativity is at my side, creating new doors of knowledge and fun.</p>
                 </div>
                 <div className="h-full w-1/2 flex justify-start flex-col items-center ml-auto pt-10">
-                    <img src="../perfil.JPG" alt="Foto de perfil" className="w-1/2 h-auto object-cover rounded-full border-4 border-green-600"/>
+                    <Image 
+                    src="../perfil.JPG" 
+                    alt="Foto de perfil"
+                    className="w-1/2 h-auto object-cover rounded-full border-4 border-green-600"
+                    />
                     <h1 className="text-white text-4xl pt-5 font-bold ">Gustavo Romão</h1>
                 </div>
 
