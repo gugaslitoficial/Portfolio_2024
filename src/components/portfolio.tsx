@@ -58,7 +58,11 @@ function Card({ name, description, isPrivate, avatar_url, homepage, html_url }: 
     <div className="w-3/4 bg-neutral-950 flex flex-col items-start justify-between gap-2 rounded-xl shadow-md shadow-slate-800 border border-neutral-700 p-6 ">
       <div className="w-full flex items-center justify-between ">
         <h1 className="text-white uppercase font-bold">{name}</h1>
-        <Image className="h-20 w-20 rounded-full" src={avatar_url} alt="Avatar" />
+        <Image 
+        className="h-20 w-20 rounded-full"
+        width={500} 
+        height={500} 
+        src={avatar_url} alt="Avatar" />
       </div>
       <p className="text-neutral-400 font-semibold">{description}</p>
       <div className="flex items-start">

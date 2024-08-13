@@ -20,8 +20,10 @@ export default function About() {
                 </div>
                 <div className="h-full w-1/2 flex justify-start flex-col items-center ml-auto pt-10">
                     <Image 
-                    src="../perfil.JPG" 
+                    src="/perfil.JPG" 
                     alt="Foto de perfil"
+                    width={500} 
+                    height={500}
                     className="w-1/2 h-auto object-cover rounded-full border-4 border-green-600"
                     />
                     <h1 className="text-white text-4xl pt-5 font-bold ">Gustavo Romão</h1>
