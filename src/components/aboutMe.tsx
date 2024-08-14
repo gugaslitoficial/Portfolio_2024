@@ -29,7 +29,7 @@ export default function About() {
     }, []);
     
     return (
-        <div className="h-screen w-full sm:p-4 md:p-8 lg:p-12 xl:p-16 2xl:p-20 bg-cover bg-center bg-no-repeat flex flex-col items-center gap-10 py-20"
+        <div className="h-screen w-full sm:p-4 md:p-8 lg:p-12 xl:p-10 2xl:p-20 bg-cover bg-center bg-no-repeat flex flex-col items-center gap-10 py-20"
         style={{ backgroundImage: "url('bg-2.jpg')" }}>
             <div className="h-1/8 w-full flex flex-col justify-start gap-6">
                 <h1 className=" text-white sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl 2xl:text-5xl flex items-center justify-center gap-2 font-bold "><CircleUserRound size={iconSize} color="#16a34a" />About Me</h1>
