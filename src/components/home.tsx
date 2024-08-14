@@ -12,13 +12,13 @@ import {
 export default function Home() {
 
     return (
-        <div className="h-screen w-full p-8 md:p-16 lg:p-24 xl:p-32 bg-cover bg-center bg-no-repeat"
+        <div className="h-screen flex items-center justify-center w-full p-8 md:p-16 lg:p-24 xl:p-32 bg-cover bg-center bg-no-repeat"
      style={{ backgroundImage: "url('..//bg-1.jpg')" }}>
 
     <div className="h-full w-full sm:w-full md:w-full lg:w-full xl:w-full flex flex-col justify-center gap-6 lg:gap-4 xl:gap-5 2xl:gap-6">
-        <p className="text-white text-3xl sm:text-4xl md:text-2xl lg:text-2xl xl:text-3xl 2xl:text-3xl font-bold">Hello, I&apos;m</p>
-        <h1 className="text-white text-4xl sm:text-5xl md:text-4xl lg:text-4xl xl:text-7xl 2xl:text-7xl font-bold">Gustavo Romão</h1>
-        <p className="text-white text-xl sm:text-2xl md:text-xl lg:text-xl xl:text-3xl 2xl:text-3xl font-semibold">FULL-STACK DEVELOPER | FREELANCER</p>
+        <p className="text-white text-3xl sm:text-2xl md:text-2xl lg:text-2xl xl:text-3xl 2xl:text-3xl font-bold">Hello, I&apos;m</p>
+        <h1 className="text-white text-4xl sm:text-6xl md:text-6xl lg:text-6xl xl:text-7xl 2xl:text-7xl font-bold">Gustavo Romão</h1>
+        <p className="text-white text-xl sm:text-2xl md:text-2xl lg:text-2xl xl:text-3xl 2xl:text-3xl font-semibold">FULL-STACK DEVELOPER | FREELANCER</p>
         <div className="flex flex-wrap items-center gap-3 my-8 md:my-10 xl:my-12">
             <Linkedin
                 size={30}
