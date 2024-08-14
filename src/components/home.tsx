@@ -15,7 +15,7 @@ export default function Home() {
         <div className="h-screen w-full p-8 md:p-16 lg:p-24 xl:p-32 bg-cover bg-center bg-no-repeat"
      style={{ backgroundImage: "url('..//bg-1.jpg')" }}>
 
-    <div className="h-full w-full sm:w-full md:w-1/2 lg:w-full xl:w-full flex flex-col justify-center gap-6 border-2">
+    <div className="h-full w-full sm:w-full md:w-1/2 lg:w-full xl:w-full flex flex-col justify-center gap-6">
         <p className="text-white text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold">Hello, I&apos;m</p>
         <h1 className="text-white text-4xl md:text-5xl lg:text-7xl xl:text-8xl font-bold">Gustavo Romão</h1>
         <p className="text-white text-xl md:text-2xl lg:text-3xl xl:text-4xl font-semibold">FULL-STACK DEVELOPER | FREELANCER</p>
