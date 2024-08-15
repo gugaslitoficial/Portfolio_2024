@@ -36,13 +36,13 @@ export default function Contact() {
     }, []);
 
     return (
-        <div className="h-screen w-full md:p-8 lg:p-12 xl:p-16 2xl:p-20 bg-cover bg-center bg-no-repeat flex flex-col items-center md:gap-2 lg:gap-2 xl:gap-14 2xl:gap-20 py-20 bg-neutral-950">
+        <div className="h-screen w-full p-2 sm:p-8 md:p-8 lg:p-12 xl:p-16 2xl:p-20 bg-cover bg-center bg-no-repeat flex flex-col items-center gap-20 sm:gap-2 md:gap-2 lg:gap-2 xl:gap-14 2xl:gap-20 py-20 bg-neutral-950">
             <div className="h-1/8 w-full flex flex-col justify-start gap-6">
-                <h1 className="text-white md:text-2xl lg:text-3xl xl:text-4xl 2xl:text-5xl flex items-center justify-center gap-2 font-bold "><MessageSquareText size={iconSize} color="#16a34a" />Contact</h1>
+                <h1 className="text-white text-3xl sm:text-2xl md:text-2xl lg:text-3xl xl:text-4xl 2xl:text-5xl flex items-center justify-center gap-2 font-bold "><MessageSquareText size={iconSize} color="#16a34a" />Contact</h1>
             </div>
-            <div className="h-full w-full flex flex-row md:ml-10 lg:gap-6 xl:gap-8 2xl:gap-10">
-                <div className="w-1/2 flex flex-col justify-center">
-                    <form className="flex flex-col gap-8 md:py-10 lg:py-10 xl:py-28">
+            <div className="h-full w-full flex flex-col sm:flex-row md:ml-10 sm:gap-0 lg:gap-6 xl:gap-8 2xl:gap-10">
+                <div className="w-full sm:w-1/2 flex flex-col justify-center">
+                    <form className="flex flex-col pb-10 sm:pb-0 gap-8 md:py-10 lg:py-10 xl:py-28">
                         <div className="flex gap-4">
                             <div className="flex-1">
                                 <label htmlFor="first-name" className="block text-gray-600"></label>
@@ -97,12 +97,12 @@ export default function Contact() {
                         </button>
                     </form>
                 </div>
-                <div className="md:w-2/3 lg:w-1/2 xl:w-1/2 2xl:w-1/2 flex items-center justify-center">
-                    <div className="md:h-1/3 md:w-3/4 lg:h-1/3 lg:w-3/4 xl:h-2/5 xl:w-4/6 2xl:h-2/5 2xl:w-3/6 text-white md:text-sm lg:text-base xl:text-lg 2xl:text-xl flex flex-col justify-center md:gap-3 lg:gap-4 xl:gap-8 2xl:gap-10 font-bold bg-gradient-to-r from-green-400 to-green-800 rounded-3xl">
-                        <p className="flex gap-4 md:ml-6 lg:ml-6 xl:ml-9 2xl:ml-12"><LocateFixed size={27}/>Londrina/PR</p>
-                        <p className="flex gap-4 md:ml-6 lg:ml-6 xl:ml-9 2xl:ml-12"><Mail size={27}/>
+                <div className="w-full h-full sm:h-auto sm:w-2/3 md:w-2/3 lg:w-1/2 xl:w-1/2 2xl:w-1/2 flex items-center justify-center p-20 sm:p-0 sm:pt-0">
+                    <div className="h-full w-full sm:h-1/3 sm:w-3/4 md:h-1/3 md:w-3/4 lg:h-1/3 lg:w-3/4 xl:h-2/5 xl:w-4/6 2xl:h-2/5 2xl:w-3/6 text-white md:text-sm lg:text-base xl:text-lg 2xl:text-xl flex flex-col justify-center gap-3 md:gap-3 lg:gap-4 xl:gap-8 2xl:gap-10 font-bold bg-gradient-to-r from-green-400 to-green-800 rounded-3xl">
+                        <p className="flex gap-4 ml-3 md:ml-6 lg:ml-6 xl:ml-9 2xl:ml-12"><LocateFixed size={27}/>Londrina/PR</p>
+                        <p className="flex gap-4 ml-3 md:ml-6 lg:ml-6 xl:ml-9 2xl:ml-12"><Mail size={27}/>
                         <a href="mailto:gustavo-romao@hotmail.com" className="text-white no-underline cursor-pointer">gustavo-romao@hotmail.com</a></p>
-                        <p className="flex gap-4 md:ml-6 lg:ml-6 xl:ml-9 2xl:ml-12"><Phone size={27}/><a href="tel:+5543988786969" className="text-white no-underline cursor-pointer">(43) 98878-6969</a></p>
+                        <p className="flex gap-4 ml-3 md:ml-6 lg:ml-6 xl:ml-9 2xl:ml-12"><Phone size={27}/><a href="tel:+5543988786969" className="text-white no-underline cursor-pointer">(43) 98878-6969</a></p>
                     </div>
                 </div>
             </div>
