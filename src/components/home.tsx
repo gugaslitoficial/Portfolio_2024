@@ -34,7 +34,7 @@ export default function Home() {
             </a>
         </div>
         <div>
-            <a href="/CVGustavoRomão-Atualizado18.08.2024.pdf" target="_blank" rel="noopener noreferrer">
+            <a href="/CVGustavoRomao-Atualizado18.08.2024.pdf" target="_blank" rel="noopener noreferrer">
                 <button className="cursor-pointer text-lg md:text-xl lg:text-xl xl:text-2xl font-bold text-white bg-transparent hover:scale-110 hover:duration-75 hover:text-neutral-100">
                     Download CV
                 </button>
