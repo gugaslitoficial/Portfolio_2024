@@ -36,9 +36,9 @@ export default function About() {
             </div>
             <div className="w-full flex flex-col sm:flex-row">
                 <div className="w-full sm:w-2/4 md:w-2/4 lg:w-3/6 xl:w-1/2 2xl:w-5/12 flex flex-col text-center sm:text-left justify-start items-center gap-2 sm:py-0 sm:gap-4 md:gap4 lg:gap-6 xl:gap-10 2xl:gap-14 order-2 sm:order-none">
-                    <p className="text-white text-lg sm:text-base md:text-base lg:text-lg xl:text-xl 2xl:text-2xl pt-10 sm:pt-8 md:pt-8 lg:pt-10 xl:pt-20 2xl:pt-36 font-bold ">
+                    <p className="text-white text-sm sm:text-base md:text-base lg:text-lg xl:text-xl 2xl:text-2xl pt-10 sm:pt-8 md:pt-8 lg:pt-10 xl:pt-20 2xl:pt-36 font-bold ">
                         Hello, I&apos;m Gustavo and I&apos;m a Full Stack Developer with a degree in Systems Analysis and Development and a postgraduate degree in Software Engineering, Network Security and Data Engineering.</p>
-                    <p className="text-white text-lg sm:text-base md:text-base lg:text-lg xl:text-xl 2xl:text-2xl font-bold ">
+                    <p className="text-white text-sm sm:text-base md:text-base lg:text-lg xl:text-xl 2xl:text-2xl font-bold ">
                         I really like this big world of programming. Since I was 12 years old, I have been playing with different languages ​​and tools in the field. And as always, creativity is at my side, creating new doors of knowledge and fun.</p>
                 </div>
                 <div className="w-full sm:w-2/4 md:w-2/4 lg:w-3/6 xl:w-1/2 2xl:w-1/2 flex justify-start flex-col items-center ml-auto pt-12 sm:pt-6 md:pt-6 lg:pt-10 xl:pt-14 2xl:pt-14 order-1 sm:order-none">

@@ -42,14 +42,14 @@ export default function Service() {
                     <h1 className="text-slate-950 text-xl sm:text-sm md:text-base lg:text-base xl:text-xl 2xl:text-4xl pt-0 pb-3 sm:pt-3 sm:pb-1 md:pt-1 md:pb-2 lg:pt-5 xl:py-0 font-bold">
                         WEB DEVELOPMENT</h1>
                         <p 
-                        className=" text-slate-50 sm:text-white text-base sm:text-sm md:text-sm lg:text-sm xl:text-lg 2xl:text-2xl font-bold sm:font-semibold"
+                        className=" text-slate-50 sm:text-white text-sm sm:text-sm md:text-sm lg:text-sm xl:text-lg 2xl:text-2xl font-bold sm:font-semibold"
                         style={{ textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)' }}>
                             I offer specialized web development services to transform your ideas into exceptional digital experiences. With expertise in HTML, CSS, JavaScript and modern frameworks, such as React and Vue.js, I&apos;m prepared to create websites and web applications that captivate and engage your target audience. From responsive design to performance optimization, I&apos;m committed to delivering high-quality projects that drive your online success. Let&apos;s collaborate to make your web presence truly memorable.</p>
                     <h1 
                     className="text-slate-950 text-xl sm:text-sm md:text-base lg:text-base xl:text-xl 2xl:text-4xl pt-4 pb-3 sm:pb-0 sm:pt-0 sm:py-2 md:py-2 lg:py-3 xl:py-5 font-bold ">
                         PROFESSIONAL QUALIFICATION</h1>
                         <p 
-                        className="text-slate-50 sm:text-white text-base sm:text-sm md:text-sm lg:text-sm xl:text-lg 2xl:text-2xl font-bold sm:font-semibold "
+                        className="text-slate-50 sm:text-white text-sm sm:text-sm md:text-sm lg:text-sm xl:text-lg 2xl:text-2xl font-bold sm:font-semibold "
                         style={{ textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)' }}>
                             HTML, CSS, JavaScript, TypeScript, Java, Python, Flask, Django, Rest, React, Vue.js, Node.js, Next.js, Spring Boot, Airflow, Maven, Spark, Bootstrap, JUnit, SQL (Oracle, SQLServer , MySQL, PostgreSQL), NoSQL (MongoDB), GIT, GitHub, JSON, APIs, Cloud, Figma, GraphQL, Kafka, YARN, Jupyter, Colab, RabbitMQ, Swiper.js, Selenium, AJAX, Docker, VSCode, Eclipse and IntelliJ .</p>
                 </div>
