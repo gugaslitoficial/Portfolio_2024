@@ -36,7 +36,7 @@ export default function Contact() {
     }, []);
 
     return (
-        <div className="h-auto w-full p-2 sm:p-8 md:p-8 lg:p-12 xl:p-16 2xl:p-20 bg-cover bg-center bg-no-repeat flex flex-col items-center gap-20 sm:gap-2 md:gap-2 lg:gap-2 xl:gap-14 2xl:gap-20 py-20 bg-neutral-950">
+        <div className="h-screen w-full p-2 sm:p-8 md:p-8 lg:p-12 xl:p-16 2xl:p-20 bg-cover bg-center bg-no-repeat flex flex-col items-center gap-20 sm:gap-2 md:gap-2 lg:gap-2 xl:gap-14 2xl:gap-20 py-20 bg-neutral-950">
             <div className="h-1/8 w-full flex flex-col justify-start gap-6">
                 <h1 className="text-white text-3xl sm:text-2xl md:text-2xl lg:text-3xl xl:text-4xl 2xl:text-5xl flex items-center justify-center gap-2 font-bold "><MessageSquareText size={iconSize} color="#16a34a" />Contact</h1>
             </div>
