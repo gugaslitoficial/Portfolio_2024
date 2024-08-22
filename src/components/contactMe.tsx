@@ -12,9 +12,9 @@ const schema = z.object({
     lastName: z.string()
         .min(2, 'Last Name must contain at least 2 characters')
         .regex(/^[\p{L}\p{M}\s]+$/u, 'Last Name cannot contain numbers'),
-    email: z.string().email()
+    email: z.string()
         .min(1, 'E-mail is required')
-        .email('Invalid e-mail address'),
+        .email({ message: 'Invalid e-mail address'}),
     message: z.string()
         .min(1, 'Message is required')
 });
