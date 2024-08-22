@@ -7,17 +7,17 @@ import { MessageSquareText, Phone, Mail, LocateFixed } from "lucide-react";
 // Definindo o esquema de validação
 const schema = z.object({
     firstName: z.string()
-      .min(1, 'First Name is required')
-      .regex(/^[A-Za-z]+$/, 'First Name cannot contain spaces or numbers'),
+    .min(1, 'First Name is required')
+    .regex(/^[A-Za-z]+$/, 'First Name cannot contain spaces or numbers'),
     lastName: z.string()
-      .min(2, 'Last Name must contain at least 2 characters')
-      .regex(/^[A-Za-z\s]+$/, 'Last Name cannot contain numbers'),
+        .min(2, 'Last Name must contain at least 2 characters')
+        .regex(/^[\p{L}\p{M}\s]+$/u, 'Last Name cannot contain numbers'),
     email: z.string()
-      .min(1, 'E-mail is required')
-      .email('Invalid e-mail address'),
+        .min(1, 'E-mail is required')
+        .email('Invalid e-mail address'),
     message: z.string()
-      .min(1, 'Message is required')
-  });
+        .min(1, 'Message is required')
+});
   
   export default function Contact() {
 
