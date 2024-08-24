@@ -29,7 +29,7 @@ export default function About() {
     }, []);
     
     return (
-        <div className="h-screen w-full p-1 sm:p-4 md:p-8 lg:p-12 xl:p-16 2xl:p-20 bg-cover bg-center bg-no-repeat flex flex-col items-center gap-3 sm:gap-10 py-20"
+        <div id="about" className="h-screen w-full p-1 sm:p-4 md:p-8 lg:p-12 xl:p-16 2xl:p-20 bg-cover bg-center bg-no-repeat flex flex-col items-center gap-3 sm:gap-10 py-20"
         style={{ backgroundImage: "url('bg-2.jpg')" }}>
             <div className="w-full flex flex-col justify-start gap-6">
                 <h1 className=" text-white text-3xl sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl 2xl:text-5xl flex items-center justify-center gap-2 font-bold "><CircleUserRound size={iconSize} color="#16a34a" />About Me</h1>
@@ -47,9 +47,9 @@ export default function About() {
                     alt="Foto de perfil"
                     width={500} 
                     height={500}
-                    className="w-60 sm:w-64 md:w-64 lg:w-72 xl:w-72 2xl:w-96 h-auto object-cover rounded-full border-4 sm:border-2 md-border-2 lg:border-2 xl:border-2 2xl:border-4 border-green-600"
+                    className="w-40 sm:w-64 md:w-64 lg:w-72 xl:w-72 2xl:w-96 h-auto object-cover rounded-full border-4 sm:border-2 md-border-2 lg:border-2 xl:border-2 2xl:border-4 border-green-600"
                     />
-                    <h1 className="text-white text-2xl sm:text-xl md:text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl pt-2 sm:pt-5 font-bold ">Gustavo Romão</h1>
+                    <h1 className="text-white text-xl sm:text-xl md:text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl pt-2 sm:pt-5 font-bold ">Gustavo Romão</h1>
                 </div>
 
             </div>

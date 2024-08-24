@@ -54,7 +54,7 @@ export default function GitHub() {
     }, []);
 
   return (
-    <div className="min-h-screen w-full flex flex-col items-center gap-20 sm:gap-0 md:gap-8 lg:gap-12 xl:gap-16 2xl:gap-20 py-20 p-10 sm:p-0 lg:p-12 xl:p-16 2xl:p-20"
+    <div id="portfolio" className="min-h-screen w-full flex flex-col items-center gap-20 sm:gap-0 md:gap-8 lg:gap-12 xl:gap-16 2xl:gap-20 py-20 p-10 sm:p-0 lg:p-12 xl:p-16 2xl:p-20"
     style={{ backgroundImage: "url('bg-4.jpg')" }}>
       <h1 className="text-white text-3xl sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl 2xl:text-5xl flex items-center justify-center gap-2 font-bold"><Github size={iconSize} color="#16a34a" />Portfolio</h1>
       <div className="w-full grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-3 gap-8 justify-items-center">

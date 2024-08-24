@@ -12,7 +12,7 @@ import {
 export default function Home() {
 
     return (
-        <div className="h-screen w-full p-8 md:p-16 lg:p-24 xl:p-32 bg-cover bg-center bg-no-repeat"
+        <div id="home" className="h-screen w-full p-8 md:p-16 lg:p-24 xl:p-32 bg-cover bg-center bg-no-repeat"
      style={{ backgroundImage: "url('..//bg-1.jpg')" }}>
 
     <div className="h-full w-full sm:w-full md:w-full lg:w-full xl:w-full flex flex-col justify-center gap-6 lg:gap-4 xl:gap-5 2xl:gap-6">
