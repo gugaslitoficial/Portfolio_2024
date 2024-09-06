@@ -1,36 +1,93 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# **Meu Portfólio**
 
-## Getting Started
+Bem-vindo ao meu portfólio! Este projeto foi desenvolvido para exibir meus trabalhos e habilidades como desenvolvedor full-stack. O portfólio é uma aplicação web construída com Next.js, TailwindCSS e React, e inclui seções para informações pessoais, serviços oferecidos, projetos e contato.
 
-First, run the development server:
+# **Estrutura do Projeto**
 
-```bash
+### 1. Page.tsx
+**Descrição:** 
+O componente principal da página que inclui todas as seções do portfólio e o pop-up de erro.
+**Funcionalidade:**
+Importa e renderiza os componentes Menu, Home, About, Service, GitHub e Contact.
+Exibe o pop-up quando necessário.
+
+### 2. contactMe.tsx
+**Descrição:** 
+Componente de formulário de contato.
+**Funcionalidade:**
+Inclui um formulário com campos para nome, e-mail e mensagem.
+Usa a biblioteca zod para validação de formulários.
+Exibe um pop-up de erro se a validação falhar.
+
+### 3. home.tsx
+**Descrição:** 
+Seção inicial do portfólio.
+**Funcionalidade:**
+Exibe uma introdução com informações sobre mim e links para redes sociais.
+Permite o download do CV.
+
+### 4. menuLateral.tsx
+**Descrição:** 
+Menu lateral de navegação.
+**Funcionalidade:**
+Permite a navegação entre as seções da página.
+Usa ícones e rola suavemente para as seções correspondentes.
+
+### 5. portfolio.tsx
+**Descrição:**
+Seção de portfólio com projetos GitHub.
+**Funcionalidade:**
+Faz uma requisição à API do GitHub para obter repositórios.
+Exibe os repositórios em cartões com informações sobre cada projeto.
+
+### 6. aboutMe.tsx
+**Descrição:** 
+Seção Sobre Mim com projetos GitHub
+**Funcionalidade:**
+Exibi uma introdução formal sobre mim na tecnologia.
+
+### 6. myService.tsx
+**Descrição:**
+Seção meus serviços com projetos GitHub
+**Funcionalidade:**
+Exibi uma introdução formal sobre meus serviços e ferramentas que utilizo em meus trabalhos.
+
+# **Instalação**
+
+## Clone este repositório:
+git clone https://github.com/gugaslitoficial/calculator.git
+
+## Navegue para o diretório do projeto:
+cd seu-repositorio
+
+## Instale as dependências:
+npm install
+
+## Execute o servidor de desenvolvimento:
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Abra o navegador e acesse http://localhost:3000.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+# Tecnologias Utilizadas:
+### Next.js: 
+Framework React para renderização do lado do servidor.
+### React:
+Biblioteca para construir interfaces de usuário.
+### TailwindCSS: 
+Framework CSS utilitário para estilização.
+### Zod: 
+Biblioteca para validação de dados.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+# Funcionalidades:
 
-## Learn More
+- Navegação suave entre seções com menu lateral.
+- Formulário de contato com validação e pop-up de erro.
+- Exibição dinâmica de projetos GitHub.
 
-To learn more about Next.js, take a look at the following resources:
+# Contribuições:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Contribuições são bem-vindas! Se você encontrar algum problema ou tiver sugestões de melhorias, sinta-se à vontade para abrir uma issue ou enviar um pull request.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+# Licença:
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Este projeto está licenciado sob a MIT License.
